@@ -11,9 +11,5 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 20
-      - key: VITE_BASE44_APP_ID
-        sync: false
-      - key: VITE_BASE44_APP_BASE_URL
-        sync: false
       - key: VITE_GOOGLE_CLIENT_ID
         sync: false
